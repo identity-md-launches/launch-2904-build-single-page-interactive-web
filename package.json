@@ -1,0 +1,21 @@
+{
+  "name": "squeek-raid",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Wheel-powered boss dungeon and Sepolia tester terminal",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "typecheck": "tsc --project jsconfig.json",
+    "test": "node --test scripts/engine.test.mjs",
+    "test:browser": "node scripts/browser.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "playwright": "1.64.1"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}
